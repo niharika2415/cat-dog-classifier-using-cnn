@@ -7,7 +7,7 @@ Click on this link: https://cat-dog-classifier-using-cnn-tfkopfkkc9ibhuaeb72bi7.
 
 # Model
 - TensorFlow CNN
-- ~80% test accuracy
+- ~83% test accuracy
 - Trained in Google Colab (GPU)
 - Access the cat_dog _model.h5 on: https://drive.google.com/file/d/1kl-TQMW3Y3M-SBNvOeVABK3JRc2MOQmw/view?usp=sharing
 

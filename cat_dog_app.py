@@ -11,12 +11,12 @@ st.set_page_config(page_title="Cat vs Dog Classifier", layout="centered")
 st.title("🐶🐱 Cat vs Dog Classifier")
 st.write("Upload an image to check if it's a cat or a dog!")
 
-# Google Drive file ID (replace with yours)
+# Google Drive file ID 
 file_id = '1kl-TQMW3Y3M-SBNvOeVABK3JRc2MOQmw' 
 url = f'https://drive.google.com/uc?id={file_id}'
 model_path = 'cat_dog_model.h5'
 
-# Download model if not already present
+# Download model (if not present)
 if not os.path.exists(model_path):
     with st.spinner('📥 Downloading model... please wait'):
         gdown.download(url, model_path, quiet=False)
